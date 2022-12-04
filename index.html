@@ -1,0 +1,48 @@
+<!-- 
+COS3712 ASSIGNMENT 1
+JOHNATHAN DAVID COOKSON
+ID 8812125074088
+STUDENT NUMBER 45051429
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS3712 ASSIGMENT 2</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<!-- Scene rotation control container -->
+	<div id="scene-controls-container">
+		<div>
+			<label><strong>Johnathan Cookson 45051429 Scene Controls:</strong></label>
+			<div>
+				<button id="scene-toggle-button">Toggle Scene</button>
+			</div>
+			<label>Camera Position:</label>
+			<div><input id="scene-rotation-control" type="range" min="-70" max="70" step="1" /></div>
+			<label>ZOOM:</label>
+			<label>out</label>
+			<div><input id="scene-zoom-control" type="range" min="0.2" max="3.5" step="0.01" /></div>
+			<label>in <span id="scene-zoom-value-text"></span></label>
+		</div>
+	</div>
+    	<!-- Shape controls container -->
+	<div id="shape-controls-container">
+		<div>
+			<label><strong>Johnathan Cookson 45051429 Shape Controls:</strong></label>
+			<div><button id="motion-control" class="stop">Start Stop</button></div>
+			<div><button id="direction-control" class="clockwise">Change Direction</button></div>
+			<label>Change Speed: </label>
+			<label>more</label>
+			<div><input id="speed-control" type="range" min="1" max="10" step="0.01" /></div>
+			<label>less <span id="speed-control"></span></label>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./js/three.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
