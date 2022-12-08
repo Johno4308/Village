@@ -9,130 +9,127 @@ PLEASE SEE README.TXT IN FOLDER FOR INSTALLATION INSTRUCTION
 */
 
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 12px;
-	font:bolder;
-	margin: 0;
-	overflow: hidden;
-	color: #3D3C42;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 12px;
+  font: bolder;
+  margin: 0;
+  overflow: hidden;
+  color: #3d3c42;
 }
 
 button {
-	background: linear-gradient(to bottom, #0096FF 0%, #00D7FF 100%);
-	border: 1px solid #3D3C42;
-	border-radius: 2px;
-	box-sizing: border-box;
-	cursor: pointer;
-	font: inherit;
-	height: 29px;
-	outline: 0;
-	position: relative;
-	color: #3D3C42;
+  background: linear-gradient(to bottom, #0096ff 0%, #00d7ff 100%);
+  border: 1px solid #3d3c42;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  height: 29px;
+  outline: 0;
+  position: relative;
+  color: #3d3c42;
 }
 
 button:hover {
-	border-color: #7b7b7b;
-	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-	color: #227b93;
+  border-color: #7b7b7b;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  color: #227b93;
 }
 
 button:active {
-	box-shadow: none;
-	color: #5800FF;
+  box-shadow: none;
+  color: #5800ff;
 }
 
-input[type='range'] {
-	cursor: pointer;
-	margin: 4px 0 0 0;
-	padding: 0;
-	width: 250px;
+input[type="range"] {
+  cursor: pointer;
+  margin: 4px 0 0 0;
+  padding: 0;
+  width: 250px;
 }
-
-
-
 
 /* Shape controls layout */
 
 #shape-controls-container {
-	background-color: #0096FF;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+  background-color: #0096ff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #shape-controls-container > div {
-	display: table;
-	height: 54px;
-	margin: 0 auto;
-	width: 880px;
+  display: table;
+  height: 54px;
+  margin: 0 auto;
+  width: 880px;
 }
 
 #shape-controls-container > div > * {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #shape-controls-container label {
-	padding: 0 5px 0 35px;
+  padding: 0 5px 0 35px;
 }
 
 #shape-controls-container label:first-child {
-	padding: 0 5px 0 0;
-	text-transform: uppercase;
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
 }
 
 #shape-controls-container label:last-child {
-	padding: 0 15px 0 5px;
+  padding: 0 15px 0 5px;
 }
 
 label#rotation-step-value-text {
-	box-sizing: border-box;
-	min-width: 50px;
+  box-sizing: border-box;
+  min-width: 50px;
 }
 
 button#motion-control.stop:hover:after {
-	background-color: #227b93;
+  background-color: #227b93;
 }
 
 button#motion-control.stop:active:after {
-	background-color: #5800FF;
+  background-color: #5800ff;
 }
 
 /* Scene controls layout */
 #scene-controls-container {
-	background-color: #0096FF;
-	position: absolute;
-	top: 0;
-	width: 100%;
+  background-color: #0096ff;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 #scene-controls-container > div {
-	display: table;
-	height: 54px;
-	margin: 0 auto;
-	width: 1120px;
+  display: table;
+  height: 54px;
+  margin: 0 auto;
+  width: 1120px;
 }
 
 #scene-controls-container > div > * {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #scene-controls-container label {
-	padding: 0 5px 0 25px;
+  padding: 0 5px 0 25px;
 }
 
 #scene-controls-container label:first-child {
-	padding: 0 5px 0 0;
-	text-transform: uppercase;
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
 }
 
 #scene-controls-container label:last-of-type {
-	padding: 0 15px 0 5px;
+  padding: 0 15px 0 5px;
 }
 
 span#scene-zoom-value-text {
-	box-sizing: border-box;
-	display: inline-block;
-	min-width: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 40px;
 }
